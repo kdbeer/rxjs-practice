@@ -3,6 +3,8 @@ import { from } from 'rxjs/observable/from';
 import { map } from 'rxjs/operators';
 import { Router } from '@angular/router';
 
+declare var $;
+
 const source = from([
   { name: 'Joe', age: 30 },
   { name: 'Frank', age: 20 },
