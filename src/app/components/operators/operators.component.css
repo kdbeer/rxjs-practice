@@ -1,0 +1,8 @@
+.left-nav {
+  height: 100vh;
+  color: #dfdfdf;
+}
+
+.left-nav .sub-list {
+  margin-left: 20px;
+}

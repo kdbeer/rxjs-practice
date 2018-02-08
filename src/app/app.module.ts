@@ -7,10 +7,12 @@ import { AppComponent } from './app.component';
 import { OperatorsComponent } from './components/operators/operators.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
+import { CreationComponent } from './components/creation/creation.component';
 
 const appRoute: Routes = [
   { path: '', component: HomeComponent },
   { path: 'operator', component: OperatorsComponent },
+  { path: 'creation', component: CreationComponent },
 ];
 
 @NgModule({
@@ -19,6 +21,7 @@ const appRoute: Routes = [
     OperatorsComponent,
     NavbarComponent,
     HomeComponent,
+    CreationComponent,
   ],
   imports: [
     BrowserModule,
